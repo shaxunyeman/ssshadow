@@ -6,3 +6,10 @@ void log0(const std::string& data) {
     << ": " << data
     << endl;
 }
+
+void log1(const std::string& data, const std::string& title) {
+  std::cout
+    << title << ": "
+    << data
+    << endl;
+}
