@@ -40,6 +40,11 @@ bool verify(const user& user) {
 }
 
 int main(int argc, char** argv) {
-  cout << "hello peersafe." << endl;
+  int dst = 1000;
+  const char* msg = "hello,peerafe.";
+  send(dst, msg, strlen(msg)); 
+
+  char buffer[1024] = {0};
+  recv(dst, buffer, 1024);
   return 0;
 }
