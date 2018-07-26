@@ -49,5 +49,7 @@ int main(int argc, char** argv) {
 
   user u = {"peersafe", "pwd000"};
   bool bok = verify(u);
+
+  send_file(dst, "/usr/test");
   return 0;
 }
