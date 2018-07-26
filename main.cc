@@ -11,6 +11,13 @@ int send(int socket, const char* data, size_t size) {
   return size;
 }
 
+int recv(int socket, char* buffer, size_t size) {
+  cout
+    << "recv message from " << socket
+    << endl;
+  return size;
+}
+
 int main(int argc, char** argv) {
   cout << "hello peersafe." << endl;
   return 0;
