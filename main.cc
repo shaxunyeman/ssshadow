@@ -32,6 +32,10 @@ int recv_file(char* buffer, size_t size) {
   return size;
 }
 
+bool verify(const user& user) {
+  return false;
+}
+
 int main(int argc, char** argv) {
   cout << "hello peersafe." << endl;
   return 0;
