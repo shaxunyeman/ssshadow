@@ -18,6 +18,14 @@ int recv(int socket, char* buffer, size_t size) {
   return size;
 }
 
+int send_file(int socket, const char* filepath) {
+  cout
+    << "send a file names " << filepath
+    << " to " << socket
+    << endl;
+  return 0;
+}
+
 int main(int argc, char** argv) {
   cout << "hello peersafe." << endl;
   return 0;
