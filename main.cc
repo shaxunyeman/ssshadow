@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "helper.h"
+
 using namespace std;
 
 int send(int socket, const char* data, size_t size) {
@@ -40,6 +42,7 @@ bool verify(const user& user) {
 }
 
 int main(int argc, char** argv) {
+  log0("start ... ");
   int dst = 1000;
   const char* msg = "hello,peerafe.";
   send(dst, msg, strlen(msg)); 
@@ -52,6 +55,8 @@ int main(int argc, char** argv) {
 
   cout << "verify: " << u << endl;
 
-  send_file(dst, "/usr/test");
+  bok = send_file(dst, "/usr/test");
+  cout << "send result: " << bok << endl;
+
   return 0;
 }
