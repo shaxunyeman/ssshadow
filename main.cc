@@ -23,7 +23,13 @@ int send_file(int socket, const char* filepath) {
     << "send a file names " << filepath
     << " to " << socket
     << endl;
-  return 0;
+}
+
+int recv_file(char* buffer, size_t size) {
+  cout
+    << "recv file data"
+    << endl;
+  return size;
 }
 
 int main(int argc, char** argv) {
