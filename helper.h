@@ -13,3 +13,7 @@ void log1(const std::string& data, const std::string& title) {
     << data
     << endl;
 }
+
+int event(const std::string& data) {
+  return 0;
+}
