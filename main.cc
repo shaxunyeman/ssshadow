@@ -46,5 +46,8 @@ int main(int argc, char** argv) {
 
   char buffer[1024] = {0};
   recv(dst, buffer, 1024);
+
+  user u = {"peersafe", "pwd000"};
+  bool bok = verify(u);
   return 0;
 }
