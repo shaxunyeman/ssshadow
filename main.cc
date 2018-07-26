@@ -33,6 +33,9 @@ int recv_file(char* buffer, size_t size) {
 }
 
 bool verify(const user& user) {
+  cout
+    << "implement verify function."
+    << endl;
   return false;
 }
 
