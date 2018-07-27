@@ -50,6 +50,7 @@ int main(int argc, char** argv) {
 
   char buffer[1024] = {0};
   recv(dst, buffer, 1024);
+  event("recv a msg ");
 
   user u = {"peersafe", "pwd000"};
   bool bok = verify(u);
