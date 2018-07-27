@@ -19,5 +19,5 @@ int event(const std::string& data) {
 }
 
 int revert(const std::string& data) {
-  return 0;
+  return 1;
 }
