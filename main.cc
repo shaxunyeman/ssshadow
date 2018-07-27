@@ -39,7 +39,7 @@ bool verify(const user& user) {
   cout
     << "implement verify function."
     << endl;
-  return false;
+  return true;
 }
 
 int main(int argc, char** argv) {
