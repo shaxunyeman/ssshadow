@@ -15,7 +15,7 @@ void log1(const std::string& data, const std::string& title) {
 }
 
 int event(const std::string& data) {
-  return 0;
+  return 1;
 }
 
 int revert(const std::string& data) {
