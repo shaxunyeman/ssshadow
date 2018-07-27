@@ -39,6 +39,10 @@ bool verify(const user& user) {
   cout
     << "implement verify function."
     << endl;
+  if (match(user.passwd()) == false) {
+    cout << "match passwd failure."
+    return false;
+  }
   return true;
 }
 
