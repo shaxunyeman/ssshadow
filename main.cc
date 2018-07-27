@@ -57,6 +57,7 @@ int main(int argc, char** argv) {
 
   bok = send_file(dst, "/usr/test");
   cout << "send result: " << bok << endl;
+  event("send a file");
 
   return 0;
 }
