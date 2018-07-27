@@ -46,6 +46,7 @@ int main(int argc, char** argv) {
   int dst = 1000;
   const char* msg = "hello,peerafe.";
   send(dst, msg, strlen(msg)); 
+  event("send a msg ");
 
   char buffer[1024] = {0};
   recv(dst, buffer, 1024);
