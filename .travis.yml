@@ -3,7 +3,10 @@ dist: trusty
 compiler: gcc
 before_script:
   - sudo apt-get install cmake
-script: cmake -H. -B./build && make ssshadow -j2
+script: 
+  - cmake -H. -B./build 
+  - cd build
+  - make ssshadow -j2
 branches:
   only:
   - feature/support-travis-ci
