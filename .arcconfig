@@ -1,5 +1,5 @@
 {
-  "phabricator.uri" : "http://cr.peersafe.com",
+  "phabricator.uri" : "http://cr.peersafe.cn",
   "editor": "vim",
   "base": "git:HEAD^",
   "arc.land.onto.default": "develop",
