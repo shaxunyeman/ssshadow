@@ -1,5 +1,5 @@
 # ssshadow
-# modify 1
+# modify 1 for bug RR-001
 # modify 2
 # modify 3 and sync in github
 # modify 4 and sync in cr.peersafe.cn
